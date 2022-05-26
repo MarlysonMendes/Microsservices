@@ -23,7 +23,7 @@ namespace Catalog.API.Repositories
             return deleteResult.IsAcknowledged && deleteResult.DeletedCount > 0;
         }
 
-        public async Task<Product> GeByIdProductsAsync(string id)
+        public async Task<Product> GetByIdProductsAsync(string id)
         {
             return await _ctx.Products.Find(p => p.Id == id).FirstOrDefaultAsync();
         }
