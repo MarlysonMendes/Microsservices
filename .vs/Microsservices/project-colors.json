@@ -5,7 +5,12 @@
       "ProjectGuid": "30c46387-36c4-4429-b018-a45a025959a0",
       "DisplayName": "Catalog.API",
       "ColorIndex": 0
+    },
+    "f2ad19aa-a109-41b4-ba52-bbe74a870d1c": {
+      "ProjectGuid": "f2ad19aa-a109-41b4-ba52-bbe74a870d1c",
+      "DisplayName": "Basket.API",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

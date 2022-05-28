@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Catalog.API\\Catalog.API.csproj": {}
+    "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Basket.API\\Basket.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Catalog.API\\Catalog.API.csproj": {
+    "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Basket.API\\Basket.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Catalog.API\\Catalog.API.csproj",
-        "projectName": "Catalog.API",
-        "projectPath": "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Basket.API\\Basket.API.csproj",
+        "projectName": "Basket.API",
+        "projectPath": "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Basket.API\\Basket.API.csproj",
         "packagesPath": "C:\\Users\\marly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Catalog.API\\obj\\",
+        "outputPath": "C:\\Users\\marly\\Desktop\\Projetos .NET\\Microsservices\\Basket.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
-              "version": "[1.14.0, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.15.1, )"
+              "version": "[6.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
