@@ -10,11 +10,11 @@ namespace Catalog.API.Data
             var client = new MongoClient(configuration.GetValue<string>
                 ("DatabaseSettigns:Connectionstring"));
             var database = client.GetDatabase(configuration.GetValue<string>
-                ("DatabaseSettings:DatabaseName"));
+                ("DatabaseSettigns:DatabaseName"));
             Products = database.GetCollection<Product>(configuration.GetValue<string>
-                ("DatabaseSettings:CollectionName"));
+                ("DatabaseSettigns:CollectionName"));
             
         }
-        public IMongoCollection<Product> Products { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public IMongoCollection<Product> Products { get; set; }
     }
 }
