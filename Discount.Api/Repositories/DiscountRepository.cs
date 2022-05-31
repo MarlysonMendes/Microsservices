@@ -19,8 +19,8 @@ namespace Discount.Api.Repositories
 
             var affected = await connection.ExecuteAsync
                 ("INSERT INTO Coupon (ProductName, Description, Amount)" + 
-                "VALUES (@ProductName, @Description, @Amount",
-                new {ProductName = coupon.ProductNanme, Description = coupon.Description, Amount = coupon.Amount});
+                "VALUES (@ProductName, @Description, @Amount)",
+                new {ProductName = coupon.ProductName, Description = coupon.Description, Amount = coupon.Amount});
             
             if (affected == 0) return false;
 
@@ -33,7 +33,7 @@ namespace Discount.Api.Repositories
             NpgsqlConnection connection = GetConnection();
 
             var affected = await connection.ExecuteAsync
-                ("DELETE FROM Coupon WHERE ProductName)" +
+                ("DELETE FROM Coupon WHERE ProductName" +
                 " = @ProductName",
                 new { ProductName = productName });
 
@@ -52,7 +52,7 @@ namespace Discount.Api.Repositories
                 new {ProductName = productName});
 
             if (coupon == null)
-                return new Coupon { ProductNanme = "No Discount", Amount = 0, Description="No Discount Desc" };
+                return new Coupon { ProductName = "No Discount", Amount = 0, Description="No Discount Desc" };
             return coupon;
         }
 
@@ -62,8 +62,8 @@ namespace Discount.Api.Repositories
 
             var affected = await connection.ExecuteAsync
                 ("INSERT INTO Coupon (ProductName, Description, Amount)" +
-                "VALUES (@ProductName, @Description, @Amount WHERE Id = @Id",
-                new { ProductName = coupon.ProductNanme, Description = coupon.Description, Amount = coupon.Amount, Id = coupon.Id });
+                "VALUES (@ProductName, @Description, @Amount WHERE Id = @Id)",
+                new { ProductName = coupon.ProductName, Description = coupon.Description, Amount = coupon.Amount, Id = coupon.Id });
 
             if (affected == 0) return false;
 
