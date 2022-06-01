@@ -29,3 +29,5 @@ C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Discount.
 C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Discount.Grpc\obj\Debug\net6.0\Discount.Grpc.pdb
 C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Discount.Grpc\obj\Debug\net6.0\Discount.Grpc.genruntimeconfig.cache
 C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Discount.Grpc\obj\Debug\net6.0\ref\Discount.Grpc.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Discount.Grpc\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Discount.Grpc\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
