@@ -13,9 +13,11 @@
     <SourceRoot Include="C:\Users\marly\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)grpc.tools\2.40.0\build\Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools\2.40.0\build\Grpc.Tools.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.15.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.15.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)grpc.tools\2.46.1\build\Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools\2.46.1\build\Grpc.Tools.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">C:\Users\marly\.nuget\packages\grpc.tools\2.40.0</PkgGrpc_Tools>
+    <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\marly\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.15.1</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">C:\Users\marly\.nuget\packages\grpc.tools\2.46.1</PkgGrpc_Tools>
   </PropertyGroup>
 </Project>

@@ -44,10 +44,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.40.0, )"
-            },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
               "version": "[6.0.5, )"
@@ -58,7 +54,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -129,7 +125,11 @@
             },
             "Grpc.AspNetCore": {
               "target": "Package",
-              "version": "[2.40.0, )"
+              "version": "[2.46.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.1, )"
             },
             "Npgsql": {
               "target": "Package",

@@ -48,3 +48,12 @@ C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.AP
 C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Grpc.Net.Client.dll
 C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
 C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Grpc.Net.Common.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Discount.Grpc.deps.json
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Discount.Grpc.runtimeconfig.json
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Discount.Grpc.exe
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Dapper.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Npgsql.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Discount.Grpc.dll
+C:\Users\marly\OneDrive\Área de Trabalho\Projetos .Net\Microsservices\Basket.API\bin\Debug\net6.0\Discount.Grpc.pdb
